@@ -12,7 +12,7 @@ class Packer
         Scanner sobj = new Scanner(System.in);
         boolean bret = false;
 
-        System.out.println("Enter the name of Directory which contains all files that you want to pack: ");
+        System.out.println("Enter the name of Directory (Folder) which contains all files that you want to pack: ");
         String DirectoryName = sobj.nextLine();
 
         System.out.println("Enter the name of packed file that you want to create : ");
@@ -77,7 +77,7 @@ class Packer
             }
 
             System.out.println("Packing activity completed..");
-            System.out.println("Total file packed succesfully : "+Arr.length);
+            System.out.println("Total file packed succesfully : " + Arr.length);
 
             System.out.println("-----------------------------------------------------");
             System.out.println("- Thank you for using Prasad's File Packer Unpacker -");
